@@ -1,0 +1,602 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    min-height: 100vh;
+    max-width: 100vw;
+}
+
+
+
+/* div#container-cards div.card{
+background: blue;
+}
+
+div#footer-temoignages > h3, p{
+    background: green;
+} */
+
+
+#header-top{
+    padding: 0 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+#header-top h1, #header-top h2, #header-top .header-img1{
+    padding: 0 20%;
+}
+
+#header-top nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+    
+}
+
+#header-top nav img{
+   width: 7.5rem;
+   cursor: pointer;
+   margin: 25px;
+}
+
+ /* #header-top nav button{
+    background-color: white;
+    border: 2px solid blue;
+    border-radius: 9999px;
+    font-size: 1.32rem;
+    font-weight: 500;
+    color: blue;
+    box-shadow: 0 0 2px 0;
+    width: 10.8rem;
+    height: 3.15rem;
+    cursor: pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 0.2s ease-in-out;
+}
+
+#header-top nav button:hover{
+    background-color: blue;
+    border: none;
+    color: white;
+}  */
+
+
+ /* #header-top nav button{
+    display: block;
+    position: relative;
+    color: blue;
+    font-size: 1.32rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid blue;
+    padding: 10px 40px;
+    background-color: white;
+    overflow: hidden;
+    transition: 1s all ease;
+
+    border-radius: 9999px;
+    
+    font-weight: 500;
+    
+    box-shadow: 0 0 2px 0;
+    
+    cursor: pointer;
+     
+    
+    
+    
+}
+
+#header-top nav button::before{
+    content: "";
+    background: blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    transition: all 0.6s ease-in-out;
+    
+    width: 0%;
+    height: 100%;
+    
+}
+
+#header-top nav button:hover::before{
+    width: 100%;
+}   */
+
+
+#header-top nav a{
+    display: block;
+    position: relative;
+    color: blue;
+    font-size: 1.32rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid blue;
+    padding: 10px 40px;
+    overflow: hidden;
+    transition: .1s all ease;
+    border-radius: 9999px;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 0 0 2px 0;
+    z-index: 100;
+    ;
+}
+
+#header-top nav a::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(30deg);
+    transition: all .6s ease;
+    width: 120%;
+    height: 0%;
+    z-index: -1;
+    
+}
+
+#header-top nav a:hover{
+    color: white; 
+}
+
+#header-top nav a:hover::before{
+    
+    background-color:blue;
+    height: 350%;
+   
+}  
+
+
+
+
+#header-top h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#header-top h2{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+#header-top .header-img1{
+    max-height: 30rem;
+    margin: 20px;
+    object-fit: contain;
+}
+
+
+
+
+
+
+
+
+/*______________________________________HEADER HEADER HEADER HEADER HEADER HEADER HEADER___________________________________________
+                                        MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN*/
+
+
+
+
+
+
+
+
+main{
+    width: 100%;
+}
+
+#container-presentation-skills{
+    margin-top: 98px;
+    height: auto;
+    width: 100%;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+
+.presentation-space{
+    background-color: rgb(0, 0, 255);
+    padding: 10rem 20%;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+
+.presentation-space h2{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 25px;
+}
+
+.presentation-space p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+    
+}
+
+#skills-space{
+    display: flex;
+    max-width: 1400px;
+    border: 2px solid whitesmoke;
+    background-color: white;    
+    border-radius: 15px; 
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    margin:-17rem auto;
+    justify-content: center;
+    padding: 50px;
+    width: 95%;
+    gap: 5%;
+    text-align: center;
+    margin-bottom: 150px;
+
+}
+
+.skill{
+     margin: 0 50px; 
+    
+}
+
+.skill i{
+    margin-bottom: 35px;
+    font-size: 2rem;
+}
+
+.skill1 h2, h3{
+    margin: 20px 0;
+    text-transform: uppercase;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.skill1{
+
+}
+
+.part1-skill1{
+    margin-bottom: 20px;
+}
+.part2-skill1{
+    margin-bottom: 20px;
+}
+.part3-skill1{
+    
+}
+.skill2{
+
+}
+.part1-skill2{
+    margin-bottom: 20px;
+}
+.part2-skill2{
+    margin-bottom: 20px;
+}
+.part3-skill2{
+
+}
+.skill3{
+
+}
+.part1-skill3{
+    margin-bottom: 20px;
+}
+.part2-skill3{
+    margin-bottom: 20px;
+}
+.part3-skill3{
+
+}
+
+
+
+#myProjects{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 50px;
+    justify-content: center;
+
+}
+
+.titles-myProjects{
+    text-align: center;
+    margin: 150px 40px;
+}
+
+.titles-myProjects h2{
+    font-size: 2.4rem;
+    font-family: cursive;
+}
+
+.titles-myProjects h3{
+    font-size: 1.4rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 35px;
+}
+
+.project{
+    text-align: center;
+}
+
+.project figure img{
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
+    margin: 50px;
+    border-radius: 15px;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+}
+
+.project figcaption{
+    height: 70px;
+}
+
+.project figcaption a{
+    border: 1.9px solid  blue;
+    padding: 7px 15px;
+    border-radius: 9999px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+    
+    text-transform: uppercase;
+    font-family: cursive;
+    
+}
+
+.project figcaption a:hover{
+    background-color: blue;
+    color: white;
+    font-size: 1.27rem;
+    transition: all .1s ease-in-out;
+    
+    
+}
+
+.project figcaption h4{
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.link_projects_github{
+    font-size: 1.7rem;
+    font-family: monospace;
+    padding: 10px 35px;
+    border-radius: 19px;
+    border: 3px solid blue;
+    color: blue;
+    margin-top: 130px;
+    cursor: pointer;
+    box-shadow: 0 0 15px 0.5px black; 
+    transition: all .15s ease-in-out;
+
+}
+
+.link_projects_github:hover{
+    box-shadow: 0 0 150px 1px black;
+    transition: all .05s ease-in-out;
+}
+
+
+#last-part{
+    margin: 350px 0;
+    
+}
+
+#last-part h3{
+    text-align: center;
+    font-family:monospace;
+    font-size: 2rem;
+    margin-bottom: 55px;
+}
+
+.images-dev{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+
+.images-dev img{
+    width: 380px;
+    height: 220px;
+    object-fit: contain;
+    margin: 50px;
+}
+
+#container-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1500px;
+    width: 90%;
+    /* border: 2px solid whitesmoke; */
+      
+    border-radius: 15px; 
+    /* box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25); */
+    margin:-17rem auto;
+    gap: 5%;
+    text-align: center;
+}
+
+#container-cards .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    margin: 0 50px 50px 50px;
+    height: 250px;
+    width: 350px;
+    background-color: white;
+    border-radius: 25px;
+    border: 2px solid wheat;
+    
+}
+
+
+footer{
+
+}
+
+
+
+#container-testemonials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.testemonials{
+    width: 800px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.middle{
+    display: flex;
+    width: 200%;
+}
+
+.first-testemonial:checked~.testemonial{
+    margin-left: 0;
+}
+
+.first-testemonial:checked~.testemonial{
+    margin-left: -50%;
+}
+
+
+
+
+
+.testemonials img{
+    width: 50px;
+    margin: 80px 0 25px 0;
+}
+
+.testemonials input{
+   
+}
+
+.testemonial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+ #container-testemonials input{
+    margin: 75px 5px;
+    
+}
+
+
+
+
+
+
+
+
+/*De 480 à 720 px pour les téléphones mobiles.
+De 768 à 900 px pour les tablettes en mode portrait.
+De 900 à 1024 px pour les tablettes en mode paysage.
+De 1024 à 1200 px pour un ordinateur fixe ou portable.*/
+
+
+@media screen and (max-width: 1200px){
+    #skills-space{
+        display: flex;
+        width: 80%;
+
+        border: 2px solid whitesmoke;
+        background-color: white;    
+        border-radius: 15px;
+        box-shadow: 0 0 15px 2px whitesmoke;
+        /* margin:-17rem auto; */
+        background-position: center;
+        
+    
+    }
+
+    .skill{
+        margin: 0 20px; 
+       
+   }
+}
+
+@media screen and (max-width: 1024px){
+    #skills-space{
+        display: flex;
+        flex-direction: column;
+
+        border: 2px solid whitesmoke;
+        background-color: white;    
+        border-radius: 15px;
+        box-shadow: 0 0 15px 2px whitesmoke;
+        /* margin:-17rem auto; */
+        background-position: center;
+        
+    
+    }
+}
+
+@media screen and (max-width: 900px){
+    
+}
+
+@media screen and (max-width: 768px){
+    
+}
+
+@media screen and (max-width: 480px){
+    
+} 
+
+/* @media screen and (min-width: 1024px){
+    #skills-space{max-width: 960px;}
+}
+
+@media screen and (min-width: 1216px){
+    #skills-space{max-width: 1152px;}
+}
+
+
+
+
+@media screen and (min-width: 1408px){
+    #skills-space{max-width: 1344px;}
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
